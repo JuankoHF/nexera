@@ -9,6 +9,7 @@
 body{
 	font-family: "MuseoModerno", sans-serif;
 	/*font-family: 'MuseoModerno', sans-serif;*/
+	background-color: #000000;
 }
 .bgSkyBlue{
 	background: var(--bgSkyBlue);
@@ -101,6 +102,12 @@ body{
 .z-index-1{
 	z-index:1;
 }
+.z-index-9{
+	z-index: 9;
+}
+.z-index-10{
+	z-index: 10;
+}
 .z-index-999{
 	z-index: 999;
 }
@@ -136,7 +143,19 @@ body{
 }
 .MyShadow{
 	display: none;
-	height: 100px;
+	height: 200px;
+	width: 100%;
+	background: linear-gradient(#000000,#02113300);
+}
+.MyShadow-1{
+	display: none;
+	height: 230px;
+	width: 100%;
+	background: linear-gradient(#000000,#02113300);
+}
+.MyShadow-2{
+	display: none;
+	height: 140px;
 	width: 100%;
 	background: linear-gradient(#000000,#02113300);
 }
@@ -177,7 +196,7 @@ body{
 }
 @media (max-width: 600px)
 {	
-	.MyShadow{
+	.MyShadow, .MyShadow-1, .MyShadow-2{
 		display: block;		
 	}	
 	.topBgImageMbl{
