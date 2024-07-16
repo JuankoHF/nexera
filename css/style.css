@@ -33,6 +33,12 @@ body{
 .font-19{
 	font-size: 19px;
 }
+.marg-btn-8 {
+	display: flex;
+    gap: 16px;
+	margin-bottom: 8px !important;
+	vertical-align: sub;
+}
 .pcmblfont6436{
 	font-size: 64px; 
 }
@@ -117,6 +123,10 @@ body{
 .bg-black{
 	background:black;
 }
+.bg-black-social{
+	background:black;
+	padding: 2rem 1.5rem !important;
+}
 .bordershadowblack-mbl{
 	box-shadow: none;
 }
@@ -194,6 +204,65 @@ body{
 .emptyblackcircle{
 	border:5px black solid;
 }
+.flex-center-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.container {
+	padding: 0 6%;
+
+}
+.link_content {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 8px 0;
+	gap: 4px;
+}
+.link_term {
+	text-decoration: none;
+	color: black !important;
+	margin-top: 1.5rem !important;
+}
+.content_signature {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+    margin-bottom: 12px;
+}
+.content_signature p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--white-page);
+	text-align: center;
+}
+.content_signature p strong {
+    font-family: 'Bruno Ace', sans-serif;
+    color: var(--primary-color);
+    font-size: 1.2rem;
+}
+.icons_company {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+    gap: 60px;
+}
+.icons_company img {
+    width: 40px;
+    height: 50px;
+    object-fit: cover;
+}
+.icons_company .nexera_logo {
+	width: 50px;
+}
 @media (max-width: 600px)
 {	
 	.MyShadow, .MyShadow-1, .MyShadow-2{
@@ -217,6 +286,7 @@ body{
 	}
 	.pcmblfont3632{
 		font-size: 32px;
+		color: white;
 	}
 	.Stription > .row{
 		background: white!important;
