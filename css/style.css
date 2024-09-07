@@ -330,12 +330,20 @@ p, h3 {
 	.Stription > .row{
 		background: white!important;
 	}
-	.Stription .row > .col-lg-6:nth-child(2n){
+	/*.Stription .row > .col-lg-6:nth-child(2n){
 		background: var(--bgSkyBlueLight);
-	}
+	}*/
 	.emptygraycircle, .emptyblackcircle{
 		bottom: 20px;
 		right:48px;
+	}
+	.ptb-0 {
+		padding-top: 3rem;
+		padding-bottom: 0px;
+	}
+	.ptb-3 {
+		padding-top: 3rem;
+		padding-bottom: 3rem
 	}
 }
 @media (max-width: 420px)
