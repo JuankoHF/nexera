@@ -88,8 +88,8 @@ p, h3 {
 	background-color: none;
 }
 .content_tittle {
-	left: 200px;
-	width: 800px;
+	left: 100px;
+	width: 600px;
 }
 .RemoveInputIcon select,
 .RemoveInputIcon input{
@@ -177,7 +177,7 @@ p, h3 {
 	background-size: auto 100%; 
 	background-position: right;
 	background-repeat: no-repeat;
-	background-image: url('../images/top-img-pc.png');
+	background-image: url('../images/fondo_pc.png');
 	width: 100%;
 	height: 650px;
 	display: block;
@@ -188,7 +188,7 @@ p, h3 {
 	background-size: cover; 
 	background-position: right;
 	background-repeat: no-repeat;
-	background-image: url('../images/top-img-mbl.jpg');
+	background-image: url('../images/fondo\ móviles.png');
 	width: 100%;
 	height: 650px;
 	display: none;
@@ -334,6 +334,7 @@ p, h3 {
 .img_70 {
 	width: 70%;
 }
+
 @media (max-width: 600px)
 {	
 	.font-text {
@@ -451,6 +452,13 @@ p, h3 {
 	.font-24 {
 		font-size: 20px;
 	}
+	.img-fluid {
+		max-width: 80%;
+		height: auto;
+	}
+	.img_70 {
+		width: 60%;
+	}
 }
 @media screen and (min-width: 1200px) {
 	p {
@@ -532,6 +540,9 @@ p, h3 {
 	}
 }
 @media screen and (min-width: 1860px) {
+	.pad-5 {
+		padding: 2rem 5rem !important;
+	}
 	.font-80 {
 		font-size: 100px;
 	}
@@ -559,5 +570,11 @@ p, h3 {
 	}
 	.pcmblfont4832 {
 		font-size: 60px;
+	}
+	.direction-colum {
+		display: flex;
+    	flex-direction: column;
+		align-items: center;
+    	justify-content: center;
 	}
 }
